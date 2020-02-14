@@ -1,6 +1,6 @@
 export class Main {
   constructor() {
-    console.log('test');
+    console.log('hello everyone!');
   }
 }
 
