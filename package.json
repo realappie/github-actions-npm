@@ -6,11 +6,14 @@
   "scripts": {
     "start": "NODE_ENV=development nodemon bin/index.js",
     "debug": "NODE_ENV=development nodemon --inspect bin/index.js",
-    "build": "tsc --sourceMap false"
+    "build": "tsc --sourceMap false",
+    "publish": "semantic-release"
   },
   "author": "Abdel El-medny",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "semantic-release": "^17.0.3"
+  },
   "devDependencies": {
     "@types/node": "^12.7.1",
     "nodemon": "^1.18.6",
