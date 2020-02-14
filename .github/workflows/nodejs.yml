@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [8.x, 10.x, 12.x]
+        node-version: [10.x, 12.x]
 
     steps:
     - uses: actions/checkout@v2
@@ -21,7 +21,6 @@ jobs:
     - run: npm run build
     - run: npm publish
       env:
-        CI: true
         NPM_TOKEN: ${{secrets.npm_token}}
         NODE_AUTH_TOKEN: ${{secrets.npm_token}}
         GH_TOKEN: ${{secrets.gh_token}}
