@@ -6,8 +6,7 @@
   "scripts": {
     "start": "NODE_ENV=development nodemon bin/index.js",
     "debug": "NODE_ENV=development nodemon --inspect bin/index.js",
-    "build": "tsc --sourceMap false",
-    "publish": "semantic-release"
+    "build": "tsc --sourceMap false"
   },
   "author": "Abdel El-medny",
   "license": "ISC",
