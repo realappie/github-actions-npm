@@ -2,7 +2,7 @@
   "name": "nodejs-typescript-project",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
     "start": "NODE_ENV=development nodemon bin/index.js",
     "debug": "NODE_ENV=development nodemon --inspect bin/index.js",
