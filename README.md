@@ -1,0 +1,1 @@
+This is a github actions demo repo [![npm version](https://badge.fury.io/js/github-actions-npm.svg)](https://badge.fury.io/js/github-actions-npm)
