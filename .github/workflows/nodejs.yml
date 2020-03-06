@@ -31,4 +31,4 @@ jobs:
         CI: true
         NPM_TOKEN: ${{secrets.npm_token}}
         NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-        GH_TOKEN: ${{secrets.gh_token}}:  
+        GH_TOKEN: ${{secrets.gh_token}}
